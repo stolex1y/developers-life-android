@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="tab_titles">
+        <item>Последние</item>
+        <item>Лучшие</item>
+        <item>Горячие</item>
+    </string-array>
+    <string name="tab_title_latest">Последние</string>
+    <string name="tab_title_top">Лучшие</string>
+    <string name="tab_title_hot">Горячие</string>
+    <string name="app_name">Developers Life</string>
+    <string name="title_activity_main">Developers Life</string>
+    <string name="button_prev">Назад</string>
+    <string name="button_next">Следующий</string>
+    <string name="user_profile">Профиль пользователя</string>
+    <string name="network_error">Произошла ошибка при загрузке данных.
+        Проверьте подключение к сети</string>
+    <string name="internal_app_error">Извините.
+        Произошла внутренняя ошибка приложения.</string>
+    <string name="try_again">Повторить</string>
+</resources>
