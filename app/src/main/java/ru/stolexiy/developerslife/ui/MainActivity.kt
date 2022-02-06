@@ -86,7 +86,7 @@ private fun DevelopersLifeApp(mainViewModel: MainViewModel) {
                     onClickPrev = mainViewModel::prevGif,
                     onClickNext = mainViewModel::nextGif
                 )
-            } else if (uiState.isError) {
+            } else if (!uiState.isOnline(LocalContext.current) || uiState.isError) {
                 ConnectionErrorImage(
                     onReconnect = mainViewModel::updateCurrentGif,
                     errorMsgId = uiState.errorMessageId ?: R.string.internal_app_error
